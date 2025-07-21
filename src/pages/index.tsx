@@ -41,17 +41,11 @@ export default function IndexPage() {
                 radius: "full",
                 variant: "shadow",
               }),
-              "bg-orange-700"
+              "bg-orange-700 text-white"
             )}
             href="/contacto"
           >
             Contacto
-          </Link>
-          <Link
-            className={buttonStyles({ variant: "solid", radius: "full" })}
-            href="/servicios"
-          >
-            Nuestros servicios
           </Link>
         </div>
       </section>
